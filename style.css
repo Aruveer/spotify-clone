@@ -1,0 +1,274 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+.main-page {
+  background-color: #121212;
+  flex: 1;
+  border-radius: 1rem;
+  overflow: auto;
+}
+.sidebar {
+  background-color: #000;
+  width: 300px;
+}
+.footer {
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+}
+.nav {
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  height: 125px;
+  border-radius: 1rem;
+  justify-content: space-evenly;
+  margin: 0.5rem;
+}
+.nav-options a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1.25rem;
+}
+.nav-options i {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+.nav-options {
+  opacity: 0.7;
+}
+.nav-options:hover {
+  opacity: 1;
+}
+
+.library {
+  background-color: #121212;
+  border-radius: 1rem;
+  height: 100%;
+  margin: 0.5rem;
+  padding: 1.4rem;
+}
+.lib-options a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 0.5rem;
+  opacity: 0.7;
+}
+.lib-options a:hover {
+  opacity: 1;
+}
+.lib-options a img {
+  height: 1.25rem;
+  width: 1.25rem;
+  padding-right: 1rem;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.options .icons i {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+.options .icons i:hover {
+  opacity: 1;
+}
+
+.box {
+  height: 5.5rem;
+  background-color: #232323;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0 0.5rem 0;
+  padding: 1rem 0rem;
+}
+.box-p1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.box-p2 {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 0.2rem;
+}
+.badge {
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+.box-2 {
+  height: 7.5rem;
+  background-color: #232323;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0 0.5rem 0;
+  padding: 1rem 0rem;
+}
+.box-p1,
+.box-p2,
+.badge {
+  transform: scale(0.9);
+}
+.sticky-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  z-index: 1;
+}
+.sticky-left {
+  margin: 0.7rem 1rem;
+  padding-top: 0.8rem;
+}
+.sticky-left img {
+  padding-right: 1rem;
+}
+.sticky-right {
+  margin-right: 1.5rem;
+}
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
+}
+
+.cards h2 {
+  margin: 1rem 1.5rem;
+}
+.card-container {
+  padding: 0 1.5rem 0 1.5rem;
+}
+.card {
+  background-color: #232323;
+  width: 220px;
+  margin: 1rem;
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+.card img {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+.card-title {
+  font-weight: 700;
+}
+.card-context {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left {
+  width: 25%;
+}
+.middle {
+  width: 50%;
+}
+.right {
+  width: 25%;
+}
+.middle-icons {
+  display: flex;
+  height: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+.middle-icons img {
+  opacity: 0.7;
+  height: 1rem;
+  padding-left: 2rem;
+}
+.middle-icons img:hover {
+  opacity: 1;
+}
+.right {
+  width: 25%;
+}
+.middle-slider {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.middle-slider input {
+  width: 70%;
+}
+.middle-slider input::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: 0.3rem;
+  background-color: #1bd760;
+  border-radius: 100px;
+}
+.middle-slider input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: white;
+
+  margin-top: -5px;
+}
+.left {
+  display: flex;
+  margin-left: 2rem;
+}
+.album img {
+  width: 5rem;
+}
+.album-name {
+  margin-left: 1rem;
+}
+.phead {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.pcontext {
+  margin-top: 0;
+  opacity: 0.7;
+}
+.like {
+  display: flex;
+  align-items: center;
+}
+.like i {
+  margin-top: -30px;
+  padding: 0.5rem;
+}
+.right i {
+  opacity: 0.7;
+  padding: 0.4rem;
+}
+.right input::-webkit-slider-runnable-track {
+  appearance: none;
+  background-color: white;
+  border-radius: 50px;
+  height: 0.3rem;
+  margin-top: -10px;
+}
+.right input::-webkit-slider-thumb {
+  appearance: none;
+  color: white;
+  margin-top: -5px;
+}

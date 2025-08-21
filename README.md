@@ -14,15 +14,15 @@ This project replicates the look and feel of Spotify’s web player UI.
 ---
 
 ## 📂 Project Structure  
-spotify-clone/
-│── index.html
-│── style.css
-│── script.js
-│── /images
-│ ├── logo.png
-│ ├── song1.png
-│ └── ...
-
+spotify-clone/     
+│── index.html        
+│── style.css        
+│── script.js       
+│── /images      
+│ ├── logo.png        
+│ ├── song1.png         
+│ └── ...           
+       
 
 ---
 

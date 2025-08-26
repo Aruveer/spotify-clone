@@ -36,7 +36,7 @@ spotify-clone/
 
 Inspired by Spotify’s web player design.
 
-Built as a learning project in Web Development.
+Built as a learning project in Web Development.        
 
 
 ## ⚙️ How to Run  

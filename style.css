@@ -267,9 +267,11 @@ body {
   height: 0.3rem;
   margin-top: -10px;
 }
+
 .right input::-webkit-slider-thumb {
   appearance: none;
   color: white;
   margin-top: -5px;
 }
+
 

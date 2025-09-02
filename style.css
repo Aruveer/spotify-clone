@@ -267,6 +267,7 @@ body {
   border-radius: 50px;
   height: 0.3rem;
   margin-top: -10px;
+  
 }
 
 .right input::-webkit-slider-thumb {
@@ -274,6 +275,7 @@ body {
   color: white;
   margin-top: -5px;
 }
+
 
 
 

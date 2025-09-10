@@ -1,6 +1,6 @@
 # 🎵 Spotify Clone  
 
-A simple **Spotify Clone** built using HTML, CSS, and JavaScript.    
+A simple **Spotify Clone** built using HTML, CSS, and JavaScript.     
 This project replicates the look and feel of Spotify’s web player UI.    
 
 --- 
